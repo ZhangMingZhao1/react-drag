@@ -1,0 +1,29 @@
+.boardContainer {
+    display: flex;
+    margin: 30px;
+}
+
+.boardContainer .leftBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 250px;
+    background-color: #fafafa;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px;
+    border: solid 1px #f0f0f0;
+}
+.DragElementWrap {
+    width: 100px;
+    height: 100px;
+}
+.boardContainer .rightBox {
+    width: 80%;
+    background-color: #fafafa;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px;
+    border: solid 1px #f0f0f0;
+}
+

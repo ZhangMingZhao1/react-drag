@@ -1,0 +1,19 @@
+
+.dragElement {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    cursor: move;
+    background-color: #e6fdff;
+    border-radius: 4px;
+    border: solid 1px #0099cc;
+    
+}
+.dragElement img {
+    
+    /* width: 40% */
+}
